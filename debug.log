@@ -88,3 +88,5 @@
 [0120/190554.710:ERROR:process_info.cc(118)] ReadProcessMemory bool __cdecl crashpad::(anonymous namespace)::ReadStruct(HANDLE, crashpad::WinVMAddress, T *) [T = crashpad::process_types::PEB<crashpad::process_types::internal::Traits64>]: Only part of a ReadProcessMemory or WriteProcessMemory request was completed. (0x12B)
 [0120/190554.873:ERROR:process_info.cc(551)] ReadProcessData failed
 [0120/222931.377:ERROR:crash_report_database_win.cc(455)] unexpected header
+[0121/153149.704:ERROR:crash_report_database_win.cc(455)] unexpected header
+[0122/054738.861:ERROR:crash_report_database_win.cc(455)] unexpected header

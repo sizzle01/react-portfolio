@@ -7,8 +7,8 @@ const Profile = () => {
   return (
     <div className="profile container_shadow">
       <div className="profile_name">
-        <Typography className="name">Tunde</Typography>
-        <Typography className="tittle">Tunde</Typography>
+        <Typography className="name">{resumeData.name}</Typography>
+        <Typography className="tittle">{resumeData.title}</Typography>
       </div>
 
       <figure className="profile_image">
