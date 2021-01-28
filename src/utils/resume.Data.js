@@ -10,27 +10,27 @@ export default {
 
   birthday: "5th 4 19983",
   email: "talktoaliyu@gmail.com",
-  address: "roa 3 house 2oB ikota villa estate Lekki",
+  address: "road 3 house 2oB ikota villa estate Lekki",
   phone: "08167722341",
 
   socials: {
-    facebook: {
+    Facebook: {
       link: "https://www.facebook.com",
       text: "Tunde Murtala",
       icon: <FacebookIcon />,
     },
 
-    twitter: {
+    Twitter: {
       link: "https://www.twitter.com",
       text: "imsizzle",
       icon: <TwitterIcon />,
     },
-    linkedin: {
+    LinkedIn: {
       link: "https://www.linkedin.com",
       text: "Tunde Murtala",
       icon: <LinkedInIcon />,
     },
-    facebook: {
+    Github: {
       link: "https://www.github.com",
       text: "Sizzle01",
       icon: <GitHubIcon />,

@@ -1,3 +1,18 @@
 :root {
   --main-color: #ffc500;
 }
+
+/*Margins and paddings*/
+
+.top_60 {
+  margin-top: 60px !important;
+}
+
+@media (max-width: 991px) {
+  .top_60 {
+    margin-top: 60px !important;
+  }
+}
+
+.container_shadow {
+}
