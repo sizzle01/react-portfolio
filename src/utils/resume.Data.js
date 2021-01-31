@@ -7,6 +7,8 @@ import {
   AssignmentOutlined,
   DeveloperBoard,
   WebOutlined,
+  YouTube,
+  Language,
 } from "@material-ui/icons";
 
 export default {
@@ -124,6 +126,57 @@ export default {
     {
       title: "VERSION-CONTROL",
       description: ["Git", "GitHub"],
+    },
+  ],
+
+  projects: [
+    {
+      tag: "React",
+      image: "https://www.computerhope.com/jargon/r/random-dice.jpg",
+      title: "project 1",
+      description:
+        "this is my project description, please check it out and let me know if it stands the chance to compete with high tech projects",
+      links: [
+        { link: "https://www.github.com", icon: <YouTube /> },
+        { link: "https://www.github.com", icon: <GitHubIcon /> },
+        { link: "https://www.github.com", icon: <Language /> },
+      ],
+    },
+    {
+      tag: "Python",
+      image: "https://www.computerhope.com/jargon/r/random-dice.jpg",
+      title: "project 2",
+      description:
+        "this is my project description, please check it out and let me know if it stands the chance to compete with high tech projects",
+      links: [
+        { link: "https://www.github.com", icon: <YouTube /> },
+        { link: "https://www.github.com", icon: <GitHubIcon /> },
+        { link: "https://www.github.com", icon: <Language /> },
+      ],
+    },
+    {
+      tag: "java",
+      image: "https://www.computerhope.com/jargon/r/random-dice.jpg",
+      title: "project 3",
+      description:
+        "this is my project description, please check it out and let me know if it stands the chance to compete with high tech projects",
+      links: [
+        { link: "https://www.github.com", icon: <YouTube /> },
+        { link: "https://www.github.com", icon: <GitHubIcon /> },
+        { link: "https://www.github.com", icon: <Language /> },
+      ],
+    },
+    {
+      tag: "React",
+      image: "https://www.computerhope.com/jargon/r/random-dice.jpg",
+      title: "project 4",
+      description:
+        "this is my project description, please check it out and let me know if it stands the chance to compete with high tech projects",
+      links: [
+        { link: "https://www.github.com", icon: <YouTube /> },
+        { link: "https://www.github.com", icon: <GitHubIcon /> },
+        { link: "https://www.github.com", icon: <Language /> },
+      ],
     },
   ],
 };
