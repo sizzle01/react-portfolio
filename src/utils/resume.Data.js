@@ -12,12 +12,12 @@ import {
 } from "@material-ui/icons";
 
 export default {
-  name: "Tunde codes",
-  title: "Front end developer",
+  name: "Aliyu Tunde",
+  title: "Front End Engineer|Web Developer",
 
-  birthday: "5th 4 19983",
+  birthday: "",
   email: "talktoaliyu@gmail.com",
-  address: "road 3 house 2oB ikota villa estate Lekki",
+  address: "Road 3 house 20B ikota villa estate Lekki",
   phone: "08167722341",
 
   socials: {
@@ -28,23 +28,23 @@ export default {
     },
 
     Twitter: {
-      link: "https://www.twitter.com",
-      text: "imsizzle",
+      link: "https://twitter.com/ememblow",
+      text: "@ememblow",
       icon: <TwitterIcon />,
     },
     LinkedIn: {
-      link: "https://www.linkedin.com",
+      link: "https://www.linkedin.com/in/aliyu-muritala-67b4b015b/",
       text: "Tunde Murtala",
       icon: <LinkedInIcon />,
     },
     Github: {
-      link: "https://www.github.com",
+      link: "https://github.com/sizzle01",
       text: "Sizzle01",
       icon: <GitHubIcon />,
     },
   },
   about:
-    "Started earnest brother believe an exposed so. Me he believing daughters if forfeited at furniture. Age again and stuff downs spoke. Late hour new nay able fat each sell. Nor themselves age introduced frequently use unsatiable devonshire get. They why quit gay cold rose deal park. One same they four did ask busy. Reserved opinions fat him nay position. Breakfast as zealously incommode do agreeable furniture. One too nay led fanny allow plate. \n\n Quick six blind smart out burst. Perfectly on furniture dejection determine my depending an to. Add short water court fat. Her bachelor honoured perceive securing but desirous ham required. Questions deficient acuteness to engrossed as. Entirely led ten humoured greatest and yourself. Besides ye country on observe. She continue appetite endeavor she judgment interest the met. For she surrounded motionless fat resolution may.",
+    "Results-oriented Front-end Developer dedicated to creating and optimizing interactive, user-friendly, and feature-rich websites. Leverage analytical skills and strong attention to detail in order to deliver original and efficient web solutions, provide technical knowledge and expertise, build new websites from start to finish, and successfully manage a team of other software professionals.",
 
   experiences: [
     {
@@ -89,17 +89,17 @@ export default {
   services: [
     {
       title: " Web Developer",
-      description: "li have been a badass developer for 3 years",
+      description: "li have been a bad ass developer for 3 years",
       icon: <AssignmentOutlined />,
     },
     {
       title: " Branding Identity",
-      description: "li have been a badass developer for 3 years",
+      description: "li have been a  bad ass developer for 3 years",
       icon: <WebOutlined />,
     },
     {
       title: " Web Developer",
-      description: "li have been a badass developer for 3 years",
+      description: "li have been a bad ass developer for 3 years",
       icon: <AssignmentOutlined />,
     },
   ],
@@ -117,7 +117,7 @@ export default {
     },
     {
       title: "BACK-END",
-      description: ["NpdeJS", "PHP"],
+      description: ["NodeJS", "PHP"],
     },
     {
       title: "DATABASES",
@@ -132,8 +132,9 @@ export default {
   projects: [
     {
       tag: "React",
-      image: "https://www.computerhope.com/jargon/r/random-dice.jpg",
+      image: <img src=".../images/office.jpg" alt="" />,
       title: "project 1",
+      caption: "A short description",
       description:
         "this is my project description, please check it out and let me know if it stands the chance to compete with high tech projects",
       links: [
@@ -146,6 +147,7 @@ export default {
       tag: "Python",
       image: "https://www.computerhope.com/jargon/r/random-dice.jpg",
       title: "project 2",
+      caption: "A short description",
       description:
         "this is my project description, please check it out and let me know if it stands the chance to compete with high tech projects",
       links: [
@@ -158,6 +160,7 @@ export default {
       tag: "java",
       image: "https://www.computerhope.com/jargon/r/random-dice.jpg",
       title: "project 3",
+      caption: "A short description",
       description:
         "this is my project description, please check it out and let me know if it stands the chance to compete with high tech projects",
       links: [
@@ -170,6 +173,7 @@ export default {
       tag: "React",
       image: "https://www.computerhope.com/jargon/r/random-dice.jpg",
       title: "project 4",
+      caption: "A short description",
       description:
         "this is my project description, please check it out and let me know if it stands the chance to compete with high tech projects",
       links: [

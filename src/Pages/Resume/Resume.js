@@ -179,7 +179,7 @@ const Resume = () => {
                 Contact Information
               </h6>
             </Grid>
-            <Grid Item xs={12}>
+            <Grid Item xs={12} className="custom_contact">
               <Grid container>
                 <Grid Item xs={12}>
                   <Typography className="contactInfo_item">
