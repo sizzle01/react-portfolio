@@ -3,6 +3,8 @@ import FacebookIcon from "@material-ui/icons/Facebook";
 import TwitterIcon from "@material-ui/icons/Twitter";
 import GitHubIcon from "@material-ui/icons/GitHub";
 import LinkedInIcon from "@material-ui/icons/LinkedIn";
+import ImportantDevicesIcon from "@material-ui/icons/ImportantDevices";
+import SearchIcon from "@material-ui/icons/Search";
 import {
   AssignmentOutlined,
   DeveloperBoard,
@@ -44,63 +46,57 @@ export default {
     },
   },
   about:
-    "Results-oriented Front-end Developer dedicated to creating and optimizing interactive, user-friendly, and feature-rich websites. Leverage analytical skills and strong attention to detail in order to deliver original and efficient web solutions, provide technical knowledge and expertise, build new websites from start to finish, and successfully manage a team of other software professionals.",
+    " Courteous, enthusiastic and results-oriented Front-end Developer dedicated to creating and optimizing interactive, user-friendly, and feature-rich websites. Leverage analytical skills and strong attention to detail in order to deliver original and efficient web solutions, provide technical knowledge and expertise, build new websites from start to finish, and successfully manage a team of other software professionals.",
 
   experiences: [
     {
-      title: "Work 1",
-      date: "2019 to present",
+      title:
+        "Front End Engineer|Web Developer, Exomasltd Internet Marketing Service",
+      date: "2021 to present",
       description:
-        "Expenses as material breeding insisted building to in. Continual so distrusts pronounce by unwilling listening. Thing do taste on we manor.",
+        "I am responsible for building the ‘client-side’ of the company's web sites and web applications. I translate the company and customer needs into functional and appealing interactive applications",
     },
     {
-      title: "Work 2",
+      title:
+        "Front End Engineer|Web Developer, Sej Duc Engineering Nigeria Limited",
       date: "2019 to 2015",
       description:
-        "Expenses as material breeding insisted building to in. Continual so distrusts pronounce by unwilling listening. Thing do taste on we manor.",
+        "I work with software teams and development managers to create software solutions. - I work with software teams and development managers to create software solutions. - I build the front-end of applications through appealing visual design. - I test software to ensure responsiveness and efficiency. - I Troubleshoot, debug and upgrade software. -  I create security and data protection settings. - I build features and websites with a mobile responsive  design. - I write technical documentation. ",
     },
     {
-      title: "Work 3",
+      title: "Web Developer, Sentrex Solutions LTD",
       date: "2013 to 2014",
       description:
-        "Expenses as material breeding insisted building to in. Continual so distrusts pronounce by unwilling listening. Thing do taste on we manor.",
+        "Developed website components using modern frameworks. -  Created high-quality mock-ups and prototypes. -  Participated in code reviews with development teams",
     },
   ],
   educations: [
     {
-      title: "education 1",
-      date: "2019 to present",
+      title:
+        "Bachelor’s Degree In Computer Science, Federal University of Technology Minna, Nigeria",
+      date: "2013 to 2018",
       description:
-        "Expenses as material breeding insisted building to in. Continual so distrusts pronounce by unwilling listening. Thing do taste on we manor.",
-    },
-    {
-      title: "education 2",
-      date: "2019 to 2015",
-      description:
-        "Expenses as material breeding insisted building to in. Continual so distrusts pronounce by unwilling listening. Thing do taste on we manor.",
-    },
-    {
-      title: "education 3",
-      date: "2013 to 2014",
-      description:
-        "Expenses as material breeding insisted building to in. Continual so distrusts pronounce by unwilling listening. Thing do taste on we manor.",
+        "I am a graduate of the Federal University Of Technology, Minna. I have demonstrated good academic performance in my courses in the university and  i hold a Bachelor’s Degree In Computer Science",
     },
   ],
   services: [
     {
-      title: " Web Developer",
-      description: "li have been a bad ass developer for 3 years",
-      icon: <AssignmentOutlined />,
+      title: " Web Development",
+      description:
+        "I offer web development services. i make serious efforts to develop creative, fast, easy to use and properly crafted responsive websites with the best practices.",
+      icon: <ImportantDevicesIcon />,
     },
     {
-      title: " Branding Identity",
-      description: "li have been a  bad ass developer for 3 years",
+      title: " E-Commerce Solutions",
+      description:
+        "I provide core custom e-commerce web solutions and services to design and develop an e-commerce website.",
       icon: <WebOutlined />,
     },
     {
-      title: " Web Developer",
-      description: "li have been a bad ass developer for 3 years",
-      icon: <AssignmentOutlined />,
+      title: "Performance & SEO",
+      description:
+        "I offer a better and more transparent SEO service that can help you to increase your visibility in the top search results.",
+      icon: <SearchIcon />,
     },
   ],
 
