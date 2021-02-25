@@ -1,4 +1,5 @@
 import React from "react";
+
 import {
   Button,
   Form,
@@ -64,7 +65,7 @@ const Header = (props) => {
               {resumeData.socials[key].icon}
             </a>
           ))}
-          <CustomButton text={"Hire Me"} icon={<Telegram />} />
+          <CustomButton text={"Hire Me"} icon={<LinkedIn />} />
         </div>
       </Navbar.Collapse>
     </Navbar>

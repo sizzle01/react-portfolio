@@ -5,6 +5,7 @@ import GitHubIcon from "@material-ui/icons/GitHub";
 import LinkedInIcon from "@material-ui/icons/LinkedIn";
 import ImportantDevicesIcon from "@material-ui/icons/ImportantDevices";
 import SearchIcon from "@material-ui/icons/Search";
+import LocalAtmIcon from "@material-ui/icons/LocalAtm";
 import {
   AssignmentOutlined,
   DeveloperBoard,
@@ -15,7 +16,7 @@ import {
 
 export default {
   name: "Aliyu Tunde",
-  title: "Front End Engineer|Web Developer",
+  title: "Front End Engineer | Web Developer",
 
   birthday: "",
   email: "talktoaliyu@gmail.com",
@@ -51,23 +52,23 @@ export default {
   experiences: [
     {
       title:
-        "Front End Engineer|Web Developer, Exomasltd Internet Marketing Service",
+        "Front End Engineer | Web Developer, Exomasltd Internet Marketing Service",
       date: "2021 to present",
       description:
-        "I am responsible for building the ‘client-side’ of the company's web sites and web applications. I translate the company and customer needs into functional and appealing interactive applications",
+        "- I am responsible for building the ‘client-side’ of the company's web sites and web applications. I translate the company and customer needs into functional and appealing interactive applications",
     },
     {
       title:
-        "Front End Engineer|Web Developer, Sej Duc Engineering Nigeria Limited",
-      date: "2019 to 2015",
+        "Front End Engineer | Web Developer, Sej Duc Engineering Nigeria Limited",
+      date: "2019 to 2020",
       description:
-        "I work with software teams and development managers to create software solutions. - I work with software teams and development managers to create software solutions. - I build the front-end of applications through appealing visual design. - I test software to ensure responsiveness and efficiency. - I Troubleshoot, debug and upgrade software. -  I create security and data protection settings. - I build features and websites with a mobile responsive  design. - I write technical documentation. ",
+        "- I work with software teams and development managers to create software solutions. - I work with software teams and development managers to create software solutions. - I build the front-end of applications through appealing visual design. - I test software to ensure responsiveness and efficiency. - I Troubleshoot, debug and upgrade software. -  I create security and data protection settings. - I build features and websites with a mobile responsive  design. - I write technical documentation. ",
     },
     {
       title: "Web Developer, Sentrex Solutions LTD",
-      date: "2013 to 2014",
+      date: "2018 to 2019",
       description:
-        "Developed website components using modern frameworks. -  Created high-quality mock-ups and prototypes. -  Participated in code reviews with development teams",
+        "- Developed website components using modern frameworks. -  Created high-quality mock-ups and prototypes. -  Participated in code reviews with development teams",
     },
   ],
   educations: [
@@ -81,19 +82,19 @@ export default {
   ],
   services: [
     {
-      title: " Web Development",
+      title: " WEB DEVELOPMENT",
       description:
         "I offer web development services. i make serious efforts to develop creative, fast, easy to use and properly crafted responsive websites with the best practices.",
       icon: <ImportantDevicesIcon />,
     },
     {
-      title: " E-Commerce Solutions",
+      title: " E-COMMERCE SOLUTIONS",
       description:
         "I provide core custom e-commerce web solutions and services to design and develop an e-commerce website.",
-      icon: <WebOutlined />,
+      icon: <LocalAtmIcon />,
     },
     {
-      title: "Performance & SEO",
+      title: "PERFORMANCE & SEO",
       description:
         "I offer a better and more transparent SEO service that can help you to increase your visibility in the top search results.",
       icon: <SearchIcon />,
@@ -140,7 +141,7 @@ export default {
       ],
     },
     {
-      tag: "Python",
+      tag: "HTML&CSS",
       image: "https://www.computerhope.com/jargon/r/random-dice.jpg",
       title: "project 2",
       caption: "A short description",
@@ -153,7 +154,7 @@ export default {
       ],
     },
     {
-      tag: "java",
+      tag: "javaScript",
       image: "https://www.computerhope.com/jargon/r/random-dice.jpg",
       title: "project 3",
       caption: "A short description",

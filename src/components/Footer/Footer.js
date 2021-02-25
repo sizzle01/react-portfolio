@@ -16,11 +16,6 @@ const Footer = () => {
           <a href="github.com/sizzle01" target="_blank">
             Tunde
           </a>
-          <br />
-          Clone idea from{" "}
-          <a href="https://themeforest.net" target="_blank">
-            theme forest
-          </a>
         </Typography>
       </div>
     </div>
