@@ -6,13 +6,7 @@ import LinkedInIcon from "@material-ui/icons/LinkedIn";
 import ImportantDevicesIcon from "@material-ui/icons/ImportantDevices";
 import SearchIcon from "@material-ui/icons/Search";
 import LocalAtmIcon from "@material-ui/icons/LocalAtm";
-import {
-  AssignmentOutlined,
-  DeveloperBoard,
-  WebOutlined,
-  YouTube,
-  Language,
-} from "@material-ui/icons";
+import { AssignmentOutlined, YouTube, Language } from "@material-ui/icons";
 
 export default {
   name: "Aliyu Tunde",
@@ -154,7 +148,7 @@ export default {
       ],
     },
     {
-      tag: "javaScript",
+      tag: "javaScript1",
       image: "https://www.computerhope.com/jargon/r/random-dice.jpg",
       title: "project 3",
       caption: "A short description",

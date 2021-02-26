@@ -19,9 +19,8 @@ import {
   Twitter,
   LinkedIn,
   GitHub,
-  Telegram,
 } from "@material-ui/icons";
-import { Link, NavLink, withRouter } from "react-router-dom";
+import { NavLink, withRouter } from "react-router-dom";
 import resumeData from "../../utils/resume.Data";
 import CustomButton from "../Button/Button";
 import "./header.css";
