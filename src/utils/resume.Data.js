@@ -71,7 +71,7 @@ export default {
         "Bachelor’s Degree In Computer Science, Federal University of Technology Minna, Nigeria",
       date: "2013 to 2018",
       description:
-        "I am a graduate of the Federal University Of Technology, Minna. I have demonstrated good academic performance in my courses in the university and  i hold a Bachelor’s Degree In Computer Science",
+        "I am a graduate of the Federal University Of Technology, Minna. I have demonstrated strong academic performance in my courses in the university and  i hold a Bachelor’s Degree In Computer Science",
     },
   ],
   services: [
@@ -123,28 +123,67 @@ export default {
   projects: [
     {
       tag: "React",
-      image: <img src=".../images/office.jpg" alt="" />,
+      image: "/images/exomas.png",
+
       title: "project 1",
       caption: "A short description",
       description:
         "this is my project description, please check it out and let me know if it stands the chance to compete with high tech projects",
       links: [
-        { link: "https://www.github.com", icon: <YouTube /> },
+        { link: "https://exomasltd.com", icon: <Language /> },
         { link: "https://www.github.com", icon: <GitHubIcon /> },
-        { link: "https://www.github.com", icon: <Language /> },
       ],
     },
     {
       tag: "HTML&CSS",
-      image: "https://www.computerhope.com/jargon/r/random-dice.jpg",
-      title: "project 2",
+      image: "/images/exomas.png",
+      title: "Digital Agency",
       caption: "A short description",
       description:
         "this is my project description, please check it out and let me know if it stands the chance to compete with high tech projects",
       links: [
-        { link: "https://www.github.com", icon: <YouTube /> },
-        { link: "https://www.github.com", icon: <GitHubIcon /> },
-        { link: "https://www.github.com", icon: <Language /> },
+        { link: "https://exomasltd.com", icon: <Language /> },
+        { link: "https://github.com/sizzle01/Exomasltd", icon: <GitHubIcon /> },
+      ],
+    },
+
+    {
+      tag: "HTML&CSS",
+      image: "/images/speis.png",
+      title: "Architectural website",
+      caption: "A short description",
+      description:
+        "this is my project description, please check it out and let me know if it stands the chance to compete with high tech projects",
+      links: [
+        { link: "https://speispro.netlify.app", icon: <Language /> },
+        { link: "https://github.com/sizzle01/speispro", icon: <GitHubIcon /> },
+      ],
+    },
+    {
+      tag: "HTML&CSS",
+      image: "/images/makeover.png",
+      title: "Makeup Artist website",
+      caption: "A short description",
+      description:
+        "this is my project description, please check it out and let me know if it stands the chance to compete with high tech projects",
+      links: [
+        { link: "https://quickglitz.netlify.app", icon: <Language /> },
+        { link: "https://github.com/sizzle01/quinbee", icon: <GitHubIcon /> },
+      ],
+    },
+     {
+      tag: "HTML&CSS",
+      image: "/images/photothumb.png",
+      title: "project 3",
+      caption: "A short description",
+      description:
+        "this is my project description, please check it out and let me know if it stands the chance to compete with high tech projects",
+      links: [
+        { link: "https://photographywebb.netlify.app", icon: <Language /> },
+        {
+          link: "https://github.com/sizzle01/int-photography",
+          icon: <GitHubIcon />,
+        },
       ],
     },
     {
@@ -155,7 +194,6 @@ export default {
       description:
         "this is my project description, please check it out and let me know if it stands the chance to compete with high tech projects",
       links: [
-        { link: "https://www.github.com", icon: <YouTube /> },
         { link: "https://www.github.com", icon: <GitHubIcon /> },
         { link: "https://www.github.com", icon: <Language /> },
       ],
@@ -168,7 +206,6 @@ export default {
       description:
         "this is my project description, please check it out and let me know if it stands the chance to compete with high tech projects",
       links: [
-        { link: "https://www.github.com", icon: <YouTube /> },
         { link: "https://www.github.com", icon: <GitHubIcon /> },
         { link: "https://www.github.com", icon: <Language /> },
       ],

@@ -31,7 +31,7 @@ const Portfolio = () => {
       <Grid item className="section_title mb_20 ">
         <span></span>
         <h6 className="section_title_text" variant="h6">
-          About Me
+          My work
         </h6>
       </Grid>
       {/**tabs */}

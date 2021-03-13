@@ -33,7 +33,7 @@
 }
 
 .customCard .customCard_image {
-  height: 140px;
+  height: 300px;
 }
 .customCard .customCard_title {
   font-weight: 500;
@@ -48,7 +48,7 @@
 .projectDialog {
 }
 .projectDialog .projectDialog_image {
-  max-height: 300px;
+  height: 400px;
   width: 100%;
   object-fit: cover;
   object-position: center center;

@@ -6,6 +6,7 @@ import CustomTimeline, { CustomTimelineSeparator } from "../Timeline/Timeline";
 import resumeData from "../../utils/resume.Data";
 import PersonOutlineOutlinedIcon from "@material-ui/icons/PersonOutlineOutlined";
 import TimelineContent from "@material-ui/lab/TimelineContent";
+import { link } from "react-router-dom";
 
 import TimelineItem from "@material-ui/lab/TimelineItem";
 import CustomButton from "../Button/Button";
@@ -45,7 +46,7 @@ const Profile = () => {
       </div>
 
       <figure className="profile_image">
-        <img src={office} alt=""></img>
+        <img src={office} alt="" />
       </figure>
 
       <div className="profile_information">
@@ -63,7 +64,9 @@ const Profile = () => {
         </CustomTimeline>
 
         <div className="button_container">
-          <CustomButton text={"Download Cv"} icon={<GetAppIcon />} />
+          <a href="/images/tundeFEresume.pdf" download="Tunde's Resume">
+            <CustomButton text={"Download Cv"} icon={<GetAppIcon />} />
+          </a>
         </div>
       </div>
     </div>
