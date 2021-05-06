@@ -16,6 +16,7 @@
   font-size: 14px !important;
   font-weight: 400 !important;
   outline-width: 0px !important;
+  margin-bottom: 15px !important;
 }
 .customTabs .active {
   color: var(--main-color) !important;

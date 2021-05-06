@@ -122,62 +122,94 @@ export default {
 
   projects: [
     {
-      tag: "React",
+      tag: "HTML&CSS,JAVASCRIPT",
       image: "/images/exomas.png",
 
-      title: "project 1",
+      title: "DIGITAL AGENCY WEBSITE",
       caption: "A short description",
-      description:
-        "this is my project description, please check it out and let me know if it stands the chance to compete with high tech projects",
+      description: "",
       links: [
-        { link: "https://exomasltd.com", icon: <Language /> },
+        { link: "https://exomasltd.netlify.app", icon: <Language /> },
         { link: "https://www.github.com", icon: <GitHubIcon /> },
       ],
     },
     {
-      tag: "HTML&CSS",
-      image: "/images/exomas.png",
-      title: "Digital Agency",
-      caption: "A short description",
-      description:
-        "this is my project description, please check it out and let me know if it stands the chance to compete with high tech projects",
+      tag: "REACT",
+      image: "/images/beauty.png",
+      title: "SPA WEBAPP",
+      caption: " WEBAPP",
+      description: "Ongoing WEBAPP project for a Spa in Abuja",
       links: [
-        { link: "https://exomasltd.com", icon: <Language /> },
-        { link: "https://github.com/sizzle01/Exomasltd", icon: <GitHubIcon /> },
+        { link: "https://beautysecretskincarespa.com/", icon: <Language /> },
+        {
+          link: "https://github.com/sizzle01/beautysecret",
+          icon: <GitHubIcon />,
+        },
       ],
     },
 
     {
-      tag: "HTML&CSS",
+      tag: "HTML&CSS,JAVASCRIPT",
       image: "/images/speis.png",
       title: "Architectural website",
-      caption: "A short description",
+      caption: "A website designed for an architectural firm in Abuja",
       description:
-        "this is my project description, please check it out and let me know if it stands the chance to compete with high tech projects",
+        "A website designed for an architectural firm in Abuja to make available their services online and for easy reach",
       links: [
         { link: "https://speispro.netlify.app", icon: <Language /> },
         { link: "https://github.com/sizzle01/speispro", icon: <GitHubIcon /> },
       ],
     },
     {
-      tag: "HTML&CSS",
+      tag: "HTML&CSS,JAVASCRIPT",
+      image: "/images/deloyemora.png",
+      title: "Construction website",
+      caption: "A website designed for a construction company in lagos",
+      description:
+        "A website designed for an construction company in Lagos to make available their services online and for easy reach",
+      links: [
+        { link: "https://deloyemora.netlify.app", icon: <Language /> },
+        {
+          link: "https://github.com/sizzle01/Deloyemora",
+          icon: <GitHubIcon />,
+        },
+      ],
+    },
+
+    {
+      tag: "REACT",
+      image: "/images/weatherapp.png",
+      title: "WEATHER APP",
+      caption: "An App that tell displays weather temperature",
+      description:
+        "this apps tells yo accurately what the weather is based on the location you type in the search box ",
+      links: [
+        { link: "https://tundeweatherapp.netlify.app/", icon: <Language /> },
+        {
+          link: "https://github.com/sizzle01/React-WeatherApp",
+          icon: <GitHubIcon />,
+        },
+      ],
+    },
+
+    {
+      tag: "HTML&CSS,JAVASCRIPT",
       image: "/images/makeover.png",
       title: "Makeup Artist website",
-      caption: "A short description",
+      caption: "Beauty Website developed for a makeup Artist",
       description:
-        "this is my project description, please check it out and let me know if it stands the chance to compete with high tech projects",
+        "this project show cases a range of their work and the services they offer",
       links: [
         { link: "https://quickglitz.netlify.app", icon: <Language /> },
         { link: "https://github.com/sizzle01/quinbee", icon: <GitHubIcon /> },
       ],
     },
-     {
-      tag: "HTML&CSS",
+    {
+      tag: "HTML&CSS,JAVASCRIPT",
       image: "/images/photothumb.png",
       title: "project 3",
-      caption: "A short description",
-      description:
-        "this is my project description, please check it out and let me know if it stands the chance to compete with high tech projects",
+      caption: "An Ongoing photography Website",
+      description: "this is an uncompleted photography website",
       links: [
         { link: "https://photographywebb.netlify.app", icon: <Language /> },
         {
@@ -187,27 +219,17 @@ export default {
       ],
     },
     {
-      tag: "javaScript1",
-      image: "https://www.computerhope.com/jargon/r/random-dice.jpg",
-      title: "project 3",
-      caption: "A short description",
-      description:
-        "this is my project description, please check it out and let me know if it stands the chance to compete with high tech projects",
+      tag: "JAVASCRIPT",
+      image: "/images/calculator.png",
+      title: "javascript calculator",
+      caption: "Apple calculator clone",
+      description: "this is a simple Apple calculator clone",
       links: [
-        { link: "https://www.github.com", icon: <GitHubIcon /> },
-        { link: "https://www.github.com", icon: <Language /> },
-      ],
-    },
-    {
-      tag: "React",
-      image: "https://www.computerhope.com/jargon/r/random-dice.jpg",
-      title: "project 4",
-      caption: "A short description",
-      description:
-        "this is my project description, please check it out and let me know if it stands the chance to compete with high tech projects",
-      links: [
-        { link: "https://www.github.com", icon: <GitHubIcon /> },
-        { link: "https://www.github.com", icon: <Language /> },
+        {
+          link: "https://github.com/sizzle01/apple-calculator",
+          icon: <GitHubIcon />,
+        },
+        { link: "https://applecalculator.netlify.app/", icon: <Language /> },
       ],
     },
   ],
