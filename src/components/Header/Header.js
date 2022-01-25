@@ -65,7 +65,11 @@ const Header = (props) => {
               {resumeData.socials[key].icon}
             </a>
           ))}
-          <CustomButton text={"Hire Me"} icon={<LinkedIn />} />
+          <CustomButton className='hire-button' text={
+             <a className='hire-button' href="https://www.linkedin.com/in/aliyu-muritala-67b4b015b/"  target="_blank">
+            Hire Me
+            </a>
+            } icon={<LinkedIn />} />
         </div>
       </Navbar.Collapse>
     </Navbar>
