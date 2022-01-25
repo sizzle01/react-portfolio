@@ -1,7 +1,7 @@
-import React from "react";
-import { Typography } from "@material-ui/core";
-import resumeData from "../../utils/resume.Data";
-import "./footer.css";
+import React from 'react'
+import { Typography } from '@material-ui/core'
+import resumeData from '../../utils/resume.Data'
+import './footer.css'
 
 const Footer = () => {
   return (
@@ -12,14 +12,14 @@ const Footer = () => {
 
       <div className="footer_right">
         <Typography className="footer_copyright">
-          Developed by{" "}
+          Developed by
           <a href="github.com/sizzle01" target="_blank">
             Tunde
           </a>
         </Typography>
       </div>
     </div>
-  );
-};
+  )
+}
 
-export default Footer;
+export default Footer
