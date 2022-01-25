@@ -1,4 +1,4 @@
-import React from "react";
+import React from 'react'
 import {
   CardActionArea,
   Grid,
@@ -13,17 +13,17 @@ import {
   DialogTitle,
   DialogContent,
   DialogActions,
-} from "@material-ui/core";
-import { useState } from "react";
-import resumeData from "../../utils/resume.Data";
-import resume from "../../Pages/Resume/Resume";
-import "./portfolio.css";
-import { Switch } from "react-router-dom";
-import { TagFaces } from "@material-ui/icons";
+} from '@material-ui/core'
+import { useState } from 'react'
+import resumeData from '../../utils/resume.Data'
+import resume from '../../Pages/Resume/Resume'
+import './portfolio.css'
+import { Switch } from 'react-router-dom'
+import { TagFaces } from '@material-ui/icons'
 
 const Portfolio = () => {
-  const [tabValue, setTabValue] = React.useState("All");
-  const [projectDialog, setProjectDialog] = useState(false);
+  const [tabValue, setTabValue] = React.useState('All')
+  const [projectDialog, setProjectDialog] = useState(false)
 
   return (
     <Grid container spacing={1} className="section pb_45 pt_45">
@@ -46,7 +46,7 @@ const Portfolio = () => {
             label="All"
             value="All"
             className={
-              tabValue == "All" ? "customTabs_item active" : "customTabs_item"
+              tabValue == 'All' ? 'customTabs_item active' : 'customTabs_item'
             }
           />
           {[...new Set(resumeData.projects.map((item) => item.tag))].map(
@@ -55,10 +55,10 @@ const Portfolio = () => {
                 label={tag}
                 value={tag}
                 className={
-                  tabValue == tag ? "customTabs_item active" : "customTabs_item"
+                  tabValue == tag ? 'customTabs_item active' : 'customTabs_item'
                 }
               />
-            )
+            ),
           )}
         </Tabs>
       </Grid>
@@ -67,7 +67,7 @@ const Portfolio = () => {
         <Grid container spacing={3}>
           {resumeData.projects.map((project) => (
             <>
-              {tabValue == project.tag || tabValue == "All" ? (
+              {tabValue == project.tag || tabValue == 'All' ? (
                 <Grid Item className="projbox" sm={6} md={4} xs={12}>
                   <Grow in timeout={1000}>
                     <Card
@@ -82,7 +82,7 @@ const Portfolio = () => {
                         />
                         <CardContent>
                           <Typography
-                            variant={"body2"}
+                            variant={'body2'}
                             className="customCard_title"
                           >
                             {project.title}
@@ -103,7 +103,7 @@ const Portfolio = () => {
             </>
           ))}
         </Grid>
-      </Grid>{" "}
+      </Grid>{' '}
       <Dialog
         open={projectDialog}
         onClose={() => setProjectDialog(false)}
@@ -125,7 +125,7 @@ const Portfolio = () => {
         </DialogActions>
       </Dialog>
     </Grid>
-  );
-};
+  )
+}
 
-export default Portfolio;
+export default Portfolio
