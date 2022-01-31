@@ -136,6 +136,20 @@ export default {
       ],
     },
     {
+      tag: "REACT",
+      image: "/images/cryptocore.png",
+      title: "Cryptocurrency news and update app",
+      caption: "Cryptocurrency Update app",
+      description: "This cryptocurrency news and updates app brings you information, news and price updates all cryptocurrencies",
+      links: [
+        {
+          link: "https://github.com/sizzle01/cryptocore",
+          icon: <GitHubIcon />,
+        },
+        { link: "https://cryptocore.netlify.app/", icon: <Language /> },
+      ],
+    },
+    {
       tag: "HTML&CSS,JAVASCRIPT",
       image: "/images/exomas.png",
 
